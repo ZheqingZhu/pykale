@@ -3,7 +3,6 @@ import os
 
 import pytest
 from scipy.io import loadmat
-# test
 
 @pytest.fixture(scope="session")
 def download_path():
